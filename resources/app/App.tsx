@@ -1,7 +1,7 @@
 function App() {
     return (
         <div className="block relative">
-            <h1>Beeman</h1>
+            <h1>Laravel + React</h1>
         </div>
     );
 }

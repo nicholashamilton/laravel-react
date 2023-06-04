@@ -1,1 +1,2 @@
-# laravel-react
+# Laravel + React
+
