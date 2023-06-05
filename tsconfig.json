@@ -17,6 +17,10 @@
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "noFallthroughCasesInSwitch": true,
+        "baseUrl": "./resources/app",
+        "paths": {
+            "@/*": ["./*"]
+        }
     },
     "include": ["resources/app"],
     "references": [{ "path": "./tsconfig.node.json" }],

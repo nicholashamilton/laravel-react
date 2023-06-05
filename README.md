@@ -1,9 +1,9 @@
 # Laravel + React 
 
-Laravel 
+Front-end 
 - [x] Laravel 10 + PHP 8
 
-React 
+Back-end 
 - [x] React 18 + TypeScript + Vite
 - [x] Tailwind CSS / SASS
 
@@ -17,4 +17,9 @@ composer install && npm install
 Run Laravel and React dev server concurrently
 ```
 npm run dev
+``` 
+
+Preview production build 
+```
+npm run production
 ``` 
