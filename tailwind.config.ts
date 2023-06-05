@@ -2,7 +2,7 @@ import type { Config } from 'tailwindcss';
 
 export default {
     content: [
-        "./resources/views/welcome.blade.php",
+        "./resources/views/app.blade.php",
         "./resources/app/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
