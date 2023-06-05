@@ -1,7 +1,14 @@
+import { RouterProvider } from 'react-router-dom';
+import router from "./router";
+import ToastNotifications from "@/components/ToastNotifications";
+
 function App() {
     return (
         <div className="block relative">
-            <h1>Laravel + React</h1>
+            <RouterProvider
+                router={router}
+            />
+            <ToastNotifications />
         </div>
     );
 }
