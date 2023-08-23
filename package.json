@@ -1,6 +1,9 @@
 {
     "private": true,
     "type": "module",
+    "engines": {
+        "node": "18.17.1"
+    },
     "scripts": {
         "dev": "concurrently \"npm run dev:laravel\" \"npm run dev:react\"",
         "dev:laravel": "php artisan serve",
