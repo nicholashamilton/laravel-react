@@ -1,10 +1,11 @@
 # Laravel + React 
 
-Front-end 
+Back-end 
 - [x] Laravel 10 + PHP 8
 
-Back-end 
+Front-end 
 - [x] React 18 + TypeScript + Vite
+- [x] React Router v6
 - [x] Tailwind CSS / SASS
 
 ### Set Up
