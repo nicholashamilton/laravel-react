@@ -8,6 +8,8 @@ Front-end
 - [x] React Router v6
 - [x] Tailwind CSS / SASS
 
+---
+
 ### Set Up 
 
 Create `.env` file from the example
@@ -35,7 +37,9 @@ Preview production build
 npm run production
 ``` 
 
-### Routes
+---
+
+### Routes 
 
 ##### `routes/web.php` 
 
@@ -74,9 +78,32 @@ Route::group([
 
 `API Protected Example:` http://localhost:8000/api/v1/example-authenticated 
 
+---
+
 ### Middleware Groups 
 
 Middleware groups `web`, `api_public` and `api_authenticated` are defined in `app/Http/Kernel.php` 
+
+---
+
+### Vite `.env` Variables 
+
+Any `.env` file variables prefixed with `VITE_` will be accessible in our React application using `import.meta.env`. 
+
+This is because the `vite.config.ts` is injecting them. 
+
+```ts
+// vite.config.ts
+...
+    define: {
+        __APP_ENV__: JSON.stringify(env.APP_ENV),
+    },
+...
+```
+
+To provide typings for `import.meta.env`, you can include the necessary type definitions in the `resources/app/env.d.ts` file.
+
+---
 
 ### Laravel Docs 
 

@@ -8,3 +8,5 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
         <App />
     </React.StrictMode>
 );
+
+// console.log(import.meta.env.VITE_APP_URL);
