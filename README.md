@@ -8,7 +8,12 @@ Front-end
 - [x] React Router v6
 - [x] Tailwind CSS / SASS
 
-### Set Up
+### Set Up 
+
+Create `.env` file from example and update the DB configuration
+```
+cp .env.example .env
+```
 
 Install dependencies 
 ```
