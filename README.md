@@ -10,7 +10,7 @@ Front-end
 
 ### Set Up 
 
-Create `.env` file from example and update the DB configuration
+Create `.env` file from the example
 ```
 cp .env.example .env
 ```
