@@ -15,6 +15,11 @@ Create `.env` file from the example
 cp .env.example .env
 ```
 
+Generate an application key
+```
+php artisan key:generate
+```
+
 Install dependencies 
 ```
 composer install && npm install
@@ -72,3 +77,7 @@ Route::group([
 ### Middleware Groups 
 
 Middleware groups `web`, `api_public` and `api_authenticated` are defined in `app/Http/Kernel.php` 
+
+### Laravel Docs 
+
+https://laravel.com/docs/10.x
