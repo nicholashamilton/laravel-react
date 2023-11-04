@@ -2,7 +2,7 @@
     "private": true,
     "type": "module",
     "engines": {
-        "node": "18.17.1"
+        "node": "20.9.0"
     },
     "scripts": {
         "dev": "concurrently \"npm run dev:laravel\" \"npm run dev:react\"",
@@ -12,6 +12,7 @@
         "production": "npm run build && ./serve.production.sh"
     },
     "devDependencies": {
+        "@types/node": "^20.8.10",
         "autoprefixer": "^10.4.14",
         "axios": "^1.1.2",
         "postcss": "^8.4.31",
