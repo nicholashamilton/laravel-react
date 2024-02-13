@@ -5,8 +5,6 @@ import tailwindcss from 'tailwindcss';
 import autoprefixer from 'autoprefixer';
 import path from 'path';
 
-const __dirname = path.dirname(new URL(import.meta.url).pathname);
-
 // https://vitejs.dev/config/
 export default defineConfig(config => {
 
