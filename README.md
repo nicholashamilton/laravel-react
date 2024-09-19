@@ -7,6 +7,7 @@ Front-end
 - [x] React 18 + TypeScript + Vite
 - [x] React Router v6
 - [x] Tailwind CSS / SASS
+- [x] Node 20+
 
 ---
 
